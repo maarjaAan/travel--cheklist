@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css"/>
     <title>Travel Cheklist with AI</title>
 </head>
 <body>
+    <div class="container">
+    <header>
     <h1>
         Travel ChekList with AI
     </h1>
+</header>
     <main>
     <form>
         <input 
@@ -17,16 +21,18 @@
         autocomplete="off"
         autofocus
         required
+        class="promt"
         />
 
         <input 
         type="submit" 
         value="Search"
+        class="search-button"
         />
 
     </form>
-    <div>
-        Your travel-cheklist:
+    <div class="travel-cheklist">
+        Your travel Cheklist:
 
 
     </div>
@@ -35,5 +41,5 @@
         This AI project is coded by
     <a href="https://github.com/maarjaAan/" target="_blank">Maarja Aan</a> and is open-sourced in <a href="https://github.com/maarjaAan/travel--cheklist" target="_blank"> Github</a> and hosted by <a href="https://travel-cheklist.netlify.app/" target="_blank">Netlify</a>
     </footer>
-
+    </div>
 </body>
