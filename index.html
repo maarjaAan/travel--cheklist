@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css"/>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Travel Cheklist with AI</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
     </h1>
 </header>
     <main>
-    <form>
+    <form id="travel-form">
         <input 
         type="text" 
         placeholder="Your travel destinatsion"
@@ -31,8 +33,8 @@
         />
 
     </form>
-    <div class="travel-cheklist">
-        Your travel Cheklist:
+    <div class="travel-cheklist" id="travel-cheklist">
+     
 
 
     </div>
@@ -42,4 +44,6 @@
     <a href="https://github.com/maarjaAan/" target="_blank">Maarja Aan</a> and is open-sourced in <a href="https://github.com/maarjaAan/travel--cheklist" target="_blank"> Github</a> and hosted by <a href="https://travel-cheklist.netlify.app/" target="_blank">Netlify</a>
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
+</html>
