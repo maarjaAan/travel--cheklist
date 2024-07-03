@@ -18,6 +18,10 @@ let instructionsInput=document.querySelector("#user-instructions");
  let apiKey="fd0f7619afd34b6f4ebdft43802e1ofb";
  let apiUrl=`https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 axios.get(apiUrl).then(displayChekList);
+
+let travelElement=document.querySelector("#travel-cheklist");
+travelElement.classList.remove("hidden");
+travelElement.innerHTML=`<div class="generating">💡 Generating travel ChekList about ${instructionsInput.value}`;
 }
 
 let travelFormElement=document.querySelector("#travel-form");
