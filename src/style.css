@@ -1,8 +1,12 @@
 body{
-    background-color: #f9f7fe;
+    
+    background-color: beige;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+
+
 .container{
     margin:120px auto;
     max-width: 600px;
